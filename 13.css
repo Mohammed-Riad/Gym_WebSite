@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    max-width: 80%;
+    margin: auto;
+}
+.bg-dark
+{
+    background-color: #252a34;
+    color: white;
+}
+.bg-dark img
+{
+    width: 80px;
+}
+.text-primary
+{
+    color: #ff2e63;
+}
+#navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#navbar ul 
+{
+    list-style: none;
+    display: flex;
+   
+}
+#navbar ul li
+{
+    color: #fff;
+    padding: 0.75rem;
+    transition: 0.5s;
+}
+
+#navbar ul li:hover
+{
+    background-color: #08d9d6;
+    border-radius: 5px;
+}
+
+
+#showcase
+{
+    text-align: center;
+}
+
+.heading
+{
+        font-size: 3rem;
+    text-transform: uppercase;
+}
+.py-1
+{
+    padding: 1.5rem 0;
+}
+.btn
+{
+    background-color: #08d9d6;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+}
+.btn:hover
+{
+    background-color: #ff2e63;
+}
+
+#showcase
+{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: #252a34;
+    background-image: url("img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.showcase-conect
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    padding: 1rem;  
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bg-ligth
+{
+    text-align: center;
+    background-color:#eaeaea ;
+    color: #252a34;
+}
+.py-2
+{
+    padding: 2rem 0;
+}
+.about-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content div,
+.about-content img
+{
+    flex: 1;
+
+}
+.about-content img
+{
+    align-items: center;
+    width: 50%;
+    /* padding-right: 1rem; */
+    border: 5px solid #fff;
+    margin-left: 1.5rem;
+}
+
+.box-shadow
+{
+    box-shadow:  0 0 2px #252a34;
+}
+.text-center
+{
+    text-align: center;
+}
+
+#cta
+{
+    background-color: #252a34;
+    background-image: url("img/8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+   
+    
+
+}
+.cta-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+     
+  
+}
+.container1
+{    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.boxes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box
+{
+    flex:1.5 ;
+    padding:1rem;
+    /* margin: 20px; */
+}
+.box img
+{
+    width: 90px;
+    background-color:#08d9d6;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+.p-1
+{
+    padding: 1rem;
+}
+.Trainer-boxes
+{
+    text-align: center;
+    width: 60%;
+    padding: 5px;
+    
+}
+.Trainer-boxes img{
+    width: 100%;
+    display: block;
+    flex: 1;
+    border-radius: 5px;
+
+    
+}
+.Trainer-boxes h3, p
+{
+    text-align: left;
+    
+}
+.text1
+{
+    text-align: left;
+    color: #ff2e63;
+}
+ul li
+{
+    list-style: none;
+    flex: 1;
+
+}
+ul
+{
+    display: flex;
+}
+ul a
+{
+    color: black;
+    padding: 5px;
+}
+.container2
+{
+    display: flex;
+    
+}
+.Trainer-boxes
+{
+    flex: 1;
+    border-radius: 5px;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+
+ul a:hover
+{
+    color: #ff2e63;
+    
+}
+.bg-primary
+{
+    background-color: #08d9d6;
+    color: white;
+   
+}
+#Contact
+{
+    display: flex;
+}
+#Contact 
+{
+    display: flex;
+}
+.contact-us
+{
+    /* width: 40%; */
+    display: flex;
+}
+
+.contact-us input,textarea,button
+{
+    width: 100%;
+    border:none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    
+}
+.btn-dark
+{
+    background-color: #252a34;
+    color: #fff;
+}
+.form-group
+{
+    display: flex;
+   
+}
+.form-group input[type="text"]
+{
+    margin-right: 0.75rem;
+}
+.py-3
+{
+    padding: 10px;
+}
+#map
+{
+    width: 5rem;
+}
+#contact .contact-us, 
+#contact .map {
+  flex: 1;
+}
