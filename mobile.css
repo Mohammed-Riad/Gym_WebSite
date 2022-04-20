@@ -1,0 +1,74 @@
+#navbar
+{
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+#navbar .logo
+{
+    margin-bottom: 1rem;
+}
+.heading
+{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.lead
+{
+    font-size: 1rem;
+    text-align: center;
+}
+
+#About .about-content
+{
+    display: block;
+    text-align: center;
+}
+#About .about-content img
+{
+    width: 100%;
+    margin: 1rem 0 0 ;
+}
+#Programs .boxes
+{
+    display: block;
+    text-align: center;
+}
+#Trainer .container2
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Trainer
+{
+    text-align: center;
+}
+#Contact .form-group
+{
+    flex-direction: column;
+    
+}
+.py-1{
+    text-align: center;
+}
+@media(max-width:580px)
+{
+    #navbar
+    {
+        opacity: 0.1;
+    }
+    #navbar ul
+    {
+        /* display: block; */
+        text-align: center;
+    }
+    #nav ul li
+    {
+        padding: 1rem;
+      
+    }
+    .form-group
+    {
+        display: block;
+    }
+}
